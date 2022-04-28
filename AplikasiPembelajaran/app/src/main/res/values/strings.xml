@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aplikasi Pembelajaran</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_word">Word...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty</string>
+    <string name="clear_all_data">Clear Data</string>
+    <string name="npm">NPM</string>
+    <string name="name">Nama</string>
+    <string name="classes">Kelas</string>
+    <string name="session">Sesi</string>
+    <string name="morning">Pagi (09.00-11.00 WIB)</string>
+    <string name="afternoon">Siang (13.00-15.00 WIB)</string>
+    <string name="register">Daftar</string>
+    <string name="error">Kesalahan Jaringan</string>
+</resources>

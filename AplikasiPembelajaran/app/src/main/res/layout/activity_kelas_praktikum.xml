@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Article.KelasPraktikum"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Pilih Menu yang Anda Inginkan"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="-300dp">
+
+    <Button
+        android:id="@+id/btndaftar1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Daftar Kelas"/>
+    <Button
+        android:id="@+id/btnmhs1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Lihat Mahasiswa"/>
+</LinearLayout>
+
+</LinearLayout>

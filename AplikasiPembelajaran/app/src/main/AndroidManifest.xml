@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="stud11418025.develops.aplikasipembelajaran"
+    android:targetSandboxVersion="1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Article.Mahasiswa"/>
+        <activity android:name=".Article.PendaftaranPraktikumStud"/>
+        <activity android:name=".Students.DASPROActivity" />
+        <activity android:name=".Students.OOSDActivity" />
+        <activity android:name=".Students.PASTIActivity" />
+        <activity android:name=".Students.PBOActivity" />
+        <activity android:name=".Students.PAMActivity" />
+        <activity android:name=".HomeStudents" />
+        <activity android:name=".Quiz.DasProQuiz" />
+        <activity android:name=".DASPRO.DasPro" />
+        <activity android:name=".Quiz.DasproEssay" />
+        <activity android:name=".Quiz.DasproPilihanGanda" />
+        <activity android:name=".Quiz.HasilSkoringDaspro" />
+        <activity android:name=".DASPRO.AddDasproActivity" />
+        <activity android:name=".Quiz.OOSDQuiz" />
+        <activity android:name=".OOSD.OOSD" />
+        <activity android:name=".Quiz.OOSDEssay" />
+        <activity android:name=".Quiz.OosdPilihanGanda" />
+        <activity android:name=".Quiz.HasilSkoringOosd" />
+        <activity android:name=".OOSD.AddOOSDActivity" />
+        <activity android:name=".Quiz.PASTIQuiz" />
+        <activity android:name=".PASTI.PASTI" />
+        <activity android:name=".Quiz.PASTIEssay" />
+        <activity android:name=".Quiz.PastiPilihanGanda" />
+        <activity android:name=".Quiz.HasilSkoringPasti" />
+        <activity android:name=".PASTI.AddPASTIActivity" />
+        <activity android:name=".Quiz.HasilSkoringPam" />
+        <activity android:name=".Quiz.PAMEssay" />
+        <activity android:name=".Quiz.PamPilihanGanda" />
+        <activity android:name=".Quiz.PAMQuiz" />
+        <activity android:name=".PAM.MainActivity" />
+        <activity android:name=".PAM.AddGejalaActivity" />
+        <activity android:name=".PBO.PBO" />
+        <activity android:name=".Quiz.PBOQuiz" />
+        <activity android:name=".PBO.AddPBOActivity" />
+        <activity android:name=".Quiz.PBOEssay" />
+        <activity android:name=".Quiz.PboPilihanGanda" />
+        <activity android:name=".Quiz.HasilSkoringPbo" />
+        <activity android:name=".Learn" />
+        <activity android:name=".Students.LearnStud" />
+        <activity android:name=".About" />
+        <activity android:name=".Article.PendaftaranPraktikum" />
+
+        <activity android:name=".Quiz.Quiz" />
+        <activity android:name=".Home" />
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

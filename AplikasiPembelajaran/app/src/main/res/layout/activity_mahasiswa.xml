@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Article.Mahasiswa">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar Mahasiswa Kelas Praktikun"
+        android:layout_marginBottom="15dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="11418025"
+        android:layout_below="@+id/t1"/>
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elsa Pitalita Sihombing"
+        android:layout_below="@id/t2"/>
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="42 TRPL-1"
+        android:layout_below="@id/t3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sesi Pagi"
+        android:layout_below="@id/t4"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnkembali"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Back"/>
+    </LinearLayout>
+</RelativeLayout>

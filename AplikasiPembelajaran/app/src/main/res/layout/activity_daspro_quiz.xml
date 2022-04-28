@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz.DasProQuiz">
+
+    <ImageView
+        android:id="@+id/DASPRO"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/daspro"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/DASPRO"
+        android:layout_margin="15dp"
+        android:background="#888fff"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/linePilGan"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Pilihan Berganda"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/DASPRO"
+        android:layout_margin="15dp"
+        android:background="#888fff"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/lineEssay"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Essay"
+            android:textAlignment="center"/>
+    </LinearLayout>
+</RelativeLayout>
